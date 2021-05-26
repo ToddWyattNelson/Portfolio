@@ -4,28 +4,40 @@ window.onload = (setTableofContents) => {
 
   const links = [
     {
-      label: "Week1 notes",
+      label: "fun code",
+      url: "/fun_code",
+    },
+    {
+      label: "Week1",
       url: "/W01/Week1.html",
     },
     {
-      label: "Week2 notes",
+      label: "Week2",
       url: "/W02/Week2.html",
     },
     {
-      label: "Week3 notes",
+      label: "Week3",
       url: "/W03/Week3.html",
     },
     {
-      label: "Week4 notes",
+      label: "Week4",
       url: "/W04/Week4.html",
     },
     {
-      label: "Week5 notes",
+      label: "Week4_b",
+      url: "/W04_2/Week4.html",
+    },
+    {
+      label: "Week5",
       url: "/W05/Week5.html",
     },
     {
-      label: "Week6 notes",
-      url: "/W06/Week6.html",
+      label: "ToDo App1(not working)",
+      url: "/Todo_app/todoapp.html",
+    },
+    {
+      label: "ToDo App2(Working)",
+      url: "/Todo_app_2/todoapp.html",
     },
   ];
 

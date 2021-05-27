@@ -21,11 +21,11 @@ window.onload = (setTableofContents) => {
     },
     {
       label: "Week4",
-      url: "/Portfolio/W04/week4.html",
+      url: "/Portfolio/W04/Week4.html",
     },
     {
       label: "Week4_b",
-      url: "/Portfolio/W04_2/Week4.html",
+      url: "/Portfolio/W04_2/week4.html",
     },
     {
       label: "Week5",

@@ -5,39 +5,39 @@ window.onload = (setTableofContents) => {
   const links = [
     {
       label: "fun code",
-      url: "/fun_code",
+      url: "Portfolio/fun_code",
     },
     {
       label: "Week1",
-      url: "/W01/Week1.html",
+      url: "Portfolio/W01/Week1.html",
     },
     {
       label: "Week2",
-      url: "/W02/Week2.html",
+      url: "Portfolio/W02/Week2.html",
     },
     {
       label: "Week3",
-      url: "/W03/Week3.html",
+      url: "Portfolio/W03/Week3.html",
     },
     {
       label: "Week4",
-      url: "/W04/Week4.html",
+      url: "Portfolio/W04/Week4.html",
     },
     {
       label: "Week4_b",
-      url: "/W04_2/Week4.html",
+      url: "Portfolio/W04_2/Week4.html",
     },
     {
       label: "Week5",
-      url: "/W05/Week5.html",
+      url: "Portfolio/W05/Week5.html",
     },
     {
       label: "ToDo App1(not working)",
-      url: "/Todo_app/todoapp.html",
+      url: "Portfolio/Todo_app/todoapp.html",
     },
     {
       label: "ToDo App2(Working)",
-      url: "/Todo_app_2/todoapp.html",
+      url: "Portfolio/Todo_app_2/todoapp.html",
     },
   ];
 

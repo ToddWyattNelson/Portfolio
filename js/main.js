@@ -9,35 +9,39 @@ window.onload = (setTableofContents) => {
     },
     {
       label: "Week1",
-      url: "/Portfolio/W01/Week1.html",
+      url: "./W01/Week1.html",
     },
     {
       label: "Week2",
-      url: "/Portfolio/W02/Week2.html",
+      url: "./W02/Week2.html",
     },
     {
       label: "Week3",
-      url: "/Portfolio/W03/Week3.html",
+      url: "./W03/Week3.html",
     },
     {
       label: "Week4",
-      url: "/Portfolio/W04/Week4.html",
+      url: "./W04/Week4.html",
     },
     {
       label: "Week4_b",
-      url: "/Portfolio/W04_2/Week4.html",
+      url: "./W04_2/Week4.html",
     },
     {
       label: "Week5",
-      url: "/Portfolio/W05/Week5.html",
+      url: "./W05/Week5.html",
     },
     {
       label: "ToDo App1(not working)",
-      url: "/Portfolio/Todo_app/todoapp.html",
+      url: "./Todo_app/todoapp.html",
     },
     {
       label: "ToDo App2(Working)",
-      url: "/Portfolio/Todo_app_2/todoapp.html",
+      url: "./Todo_app_2/todoapp.html",
+    },
+    {
+      label: "Week8",
+      url: "./W08/Week8.html",
     },
   ];
 

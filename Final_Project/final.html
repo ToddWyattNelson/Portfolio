@@ -6,32 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Project Translate</title>
+    <title>Project Translate icon</title>
+    <link rel="icon" href="./translate.svg" type="image/x-icon">
 </head>
 
 <body>
-
+    <a href="../index.html">Back to Index</a>
     <h1 class="center">
         <button id="translate">Translation</button>
+        <button id="save" class="filter-button">SAVE</button>
     </h1>
-
-
-    <h2 class="center">To</h2>
-
     <div id="text_container" class="center">
-
         <div id="input_section">
-            <h2>language</h2>
+            <div class="box">
+                <select name="language_input" id="language_input">
+                    <option value="en">English</option>
+                    <option value="it">Italian</option>
+                    <option value="fr">French</option>
+                    <option value="th">Thai</option>
+                    <option value="tg">Tajilk</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
             <textarea id="input_textarea" placeholder="Enter text here"></textarea>
         </div>
-
-
+        <span class="">TO &#8594</span>
         <div id="output_section">
-            <h2>language</h2>
+            <div class="box">
+                <select name="language_output" id="language_output">
+                    <option value="en">English</option>
+                    <option value="it">Italian</option>
+                    <option value="fr">French</option>
+                    <option value="th">Thai</option>
+                    <option value="tg">Tajilk</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
             <textarea id="output_textarea"></textarea>
         </div>
     </div>
-
+    <div id="saved_items">
+        <ul class="items"></ul>
+    </div>
+    <ul class="history"></ul>
 
 </body>
 <script src="./final.js"></script>

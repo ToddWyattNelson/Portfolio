@@ -40,14 +40,26 @@ window.onload = (setTableofContents) => {
       url: "./Todo_app_2/todoapp.html",
     },
     {
+      label: "Week7",
+      url: "./W07/Week7.html",
+    },
+    {
       label: "Week8",
       url: "./W08/Week8.html",
+    },
+    {
+      label: "Week9",
+      url: "./W09/Week9.html",
+    },
+    {
+      label: "FINAL (Translator)",
+      url: "../Final_Project/final.html",
     },
   ];
 
   links.forEach((element) => {
     // Create new Elements
-    let li = document.createElement("li");
+    let ul = document.createElement("ul");
     let a = document.createElement("a");
 
     // Add the stuffing
@@ -55,8 +67,8 @@ window.onload = (setTableofContents) => {
     a.textContent = element.label;
 
     // append the children
-    li.appendChild(a);
-    list.appendChild(li);
+    ul.appendChild(a);
+    list.appendChild(ul);
 
     console.log("it worked");
   });

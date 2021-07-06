@@ -53,7 +53,7 @@ window.onload = (setTableofContents) => {
     },
     {
       label: "FINAL (Translator)",
-      url: "../Final_Project/final.html",
+      url: "./Final_Project/final.html",
     },
   ];
 
